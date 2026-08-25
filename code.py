@@ -43,7 +43,7 @@ def range_map(v, in_min, in_max, out_min, out_max):
 # The Feather boots faster than a Pi Zero. Waiting here lets the Pi finish
 # booting enough to register the controller, so it connects on its own.
 # Tune this number: ~25 s works for a Pi Zero reaching EmulationStation in ~60 s.
-time.sleep(25)
+time.sleep(15)
 
 while True:
     buttons = 0
